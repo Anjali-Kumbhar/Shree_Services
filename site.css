@@ -26,7 +26,7 @@ img { max-width: 100%; height: auto; }
 
 /* Hero */
 .home-container { text-align: center; padding: 32px 20px; }
-.hero-section { position: relative; background: radial-gradient(1200px 400px at 50% -200px, rgba(255,255,255,.35), rgba(255,255,255,0)), url('./Herobg.jpg') center/cover no-repeat, linear-gradient(180deg, #1f3c88 0%, #182848 100%); color: #040404; border-radius: 24px; display: flex; align-items: center; justify-content: center; min-height: 64vh; margin-bottom: 40px; overflow: hidden; box-shadow: var(--shadow-2); }
+.hero-section { position: relative; background: radial-gradient(1200px 400px at 50% -200px, rgba(255,255,255,.35), rgba(255,255,255,0)), url('./herobg.jpg') center/cover no-repeat, linear-gradient(180deg, #1f3c88 0%, #182848 100%); color: #040404; border-radius: 24px; display: flex; align-items: center; justify-content: center; min-height: 64vh; margin-bottom: 40px; overflow: hidden; box-shadow: var(--shadow-2); }
 .hero-section::before { content: ""; position: absolute; inset: 0; background: radial-gradient(800px 240px at 80% -120px, rgba(39,174,96,.25), transparent), radial-gradient(800px 240px at 20% -120px, rgba(13,110,253,.25), transparent); }
 .overlay { position: relative; z-index: 1; max-width: 860px; padding: 24px; }
 .hero-section h1 { font-size: 2.6rem; margin: 0 0 12px; color: #030303; text-shadow: 0 8px 30px rgba(0,0,0,.35); letter-spacing: .3px; }
